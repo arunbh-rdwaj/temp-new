@@ -1,9 +1,9 @@
 const http=require('http')
 const server=http.createServer((req,res)=>{
     if(req.url==='/')
-        res.end('Arun Boi')
+        res.end('Welcome ')
     if(req.url==='/about')
-        res.end('niggggaa')
+        res.end('you have reached the about section')
    // res.write('welcome')
     res.end(`<h1>404 Error Found</h1>`)
 })
